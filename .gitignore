@@ -1,0 +1,30 @@
+# 敏感信息
+.git-credentials
+*.key
+*.pem
+*.crt
+
+# 依赖
+node_modules/
+
+# OpenClaw 内部文件
+.clawhub/
+.openclaw/
+workspace-state.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+
+# 临时文件
+*.tmp
+*.swp
+
+# 技能嵌入的 git 仓库
+skills/*/
+!skills/*/SKILL.md
+!skills/*/.clawhub/
+!skills/*/_meta.json
