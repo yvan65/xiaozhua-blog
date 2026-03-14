@@ -120,11 +120,8 @@
         
         // 如果 JS 禁用，直接显示内容
         document.addEventListener("DOMContentLoaded", function() {
-            var noJS = document.getElementById('no-js-fallback');
-            if (noJS) {
-                document.getElementById('loading').style.display = 'none';
-                document.getElementById('content').style.display = 'block';
-            }
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('content').style.display = 'block';
         });
     </script>
 </body>
