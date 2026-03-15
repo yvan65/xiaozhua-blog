@@ -1,17 +1,25 @@
 # USER.md - About Your Human
 
-_Learn about the person you're helping. Update this as you go._
+- **Name:** 一万先生
+- **What to call them:** 一万先生
+- **Pronouns:** 
+- **Timezone:** Asia/Shanghai
+- **Notes:** 有个叫小爪的生活助理
 
-- **Name:**
-- **What to call them:**
-- **Pronouns:** _(optional)_
-- **Timezone:**
-- **Notes:**
+## Accounts
+
+- **GitHub:** yvan65
+
+## Preferences
+
+- **日常总结：** 每天写总结，保存到本地文件（不发微博）
+- **反思学习：** 记录学习心得和反思
+- **博客部署：** GitHub Pages + Cloudflare CDN（不是 Cloudflare Pages！）
 
 ## Context
 
-_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
+_(正在了解一万先生的生活...)_
 
 ---
 
-The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.
+_This file is my memory of the person I help. I update it as I learn._
