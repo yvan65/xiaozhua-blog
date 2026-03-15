@@ -26,8 +26,5 @@ Thumbs.db
 *.tmp
 *.swp
 
-# 技能嵌入的 git 仓库
-skills/*/
-!skills/*/SKILL.md
-!skills/*/.clawhub/
-!skills/*/_meta.json
+# 技能目录（服务器本地，不提交到 GitHub）
+skills/
