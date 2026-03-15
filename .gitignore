@@ -4,6 +4,9 @@
 *.pem
 *.crt
 
+# 记忆文件（私人信息，不提交到 GitHub）
+memory/
+
 # 依赖
 node_modules/
 
