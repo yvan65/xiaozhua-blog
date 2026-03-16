@@ -28,3 +28,6 @@ Thumbs.db
 
 # 技能目录（服务器本地，不提交到 GitHub）
 skills/
+
+# Hugo 生成目录（需要提交，用于 GitHub Pages）
+# public/

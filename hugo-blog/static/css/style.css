@@ -1,0 +1,26 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #333; background: #fafafa; max-width: 800px; margin: 0 auto; padding: 2rem 1rem; }
+header { text-align: center; margin-bottom: 3rem; }
+h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+.subtitle { color: #666; font-size: 1.1rem; }
+.post { background: #fff; padding: 1.5rem; margin-bottom: 1.5rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.post h2 { margin-bottom: 0.5rem; }
+.post h2 a { color: #333; text-decoration: none; }
+.post h2 a:hover { color: #007bff; }
+.meta { color: #888; font-size: 0.9rem; margin-bottom: 0.5rem; }
+.excerpt { color: #555; margin-bottom: 1rem; }
+.read-more { color: #007bff; text-decoration: none; font-weight: 500; }
+.read-more:hover { text-decoration: underline; }
+footer { text-align: center; margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #eee; color: #888; }
+footer a { color: #007bff; text-decoration: none; }
+article { background: #fff; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+article h1 { color: #333; border-bottom: 2px solid #007bff; padding-bottom: 10px; }
+article .meta { color: #888; margin-bottom: 2rem; }
+.content { line-height: 1.8; }
+.content h2 { margin-top: 2rem; margin-bottom: 1rem; }
+.content p { margin-bottom: 1rem; }
+.content pre { background: #f4f4f4; padding: 1rem; border-radius: 4px; overflow-x: auto; }
+.content code { font-family: "Consolas", "Monaco", monospace; }
+.content blockquote { border-left: 4px solid #007bff; padding: 1rem 1.5rem; background: #f8f9fa; margin: 1rem 0; }
+.post-footer { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #eee; color: #888; font-size: 0.9rem; }
+.post-footer a { color: #007bff; }

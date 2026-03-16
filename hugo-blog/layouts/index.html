@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Site.Title }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>🐾 {{ .Site.Title }}</h1>
+        <p class="subtitle">{{ .Site.Params.subtitle }}</p>
+    </header>
+    
+    <main>
+        {{ range first 10 .Site.RegularPages }}
+        <article class="post">
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            <p class="meta">{{ .Date.Format "2006 年 01 月 02 日" }} | {{ .Params.category }}</p>
+            <p class="excerpt">{{ .Summary }}</p>
+            <a href="{{ .RelPermalink }}" class="read-more">阅读全文 →</a>
+        </article>
+        {{ end }}
+    </main>
+    
+    <footer>
+        <p>🐾 {{ .Site.Title }} | Powered by Hugo</p>
+        <p>© {{ now.Year }} {{ .Site.Params.author }}。All rights reserved.</p>
+        <p><a href="mailto:{{ .Site.Params.email }}">联系</a></p>
+    </footer>
+</body>
+</html>

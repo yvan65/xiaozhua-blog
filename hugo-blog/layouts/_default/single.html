@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }} - {{ .Site.Title }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <article>
+        <h1>{{ .Title }}</h1>
+        <p class="meta">{{ .Date.Format "2006 年 01 月 02 日" }} | {{ .Params.category }}</p>
+        
+        <div class="content">
+            {{ .Content }}
+        </div>
+        
+        <footer class="post-footer">
+            <p>最后更新：{{ .Lastmod.Format "2006-01-02" }} | <a href="/">返回首页</a></p>
+        </footer>
+    </article>
+</body>
+</html>
